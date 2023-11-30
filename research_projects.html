@@ -48,12 +48,15 @@
 									</div>
 									<div class="row">
 										<div class="content col-lg-6">
-											<p style="text-align: justify;  text-justify: inter-word;">Currently working on two projects parallel while more aligned for further. We use Yb<sup>171+</sup> ions for quantum simulation setup
-											which is Dopler cooled by 369.5nm transition. In previous experiments, it has been observed that far more optimal cooling times and bandwidth can be achieved with higher power, low noise Doppler beams. 
+											<p style="text-align: justify;  text-justify: inter-word;">Currently working on two projects parallelly while more aligned for further. We use Yb<sup>171+</sup> ions for quantum simulation setup
+											which is Dopler cooled by 369.5nm transition. In previous experiments, it has been observed that far more optimal cooling times and bandwidth can be achieved with higher power low noise Doppler beams. 
 											But buying such lasers in the power range of 30-70mW is expensive, and this is where injection-locking comes in. This commonly used technique in AMO-labs uses a low power but low phase and amplitude noise <em>Master Laser</em>
 											, a 369.5nm Moglabs ECLDL in our case, to lock the frequency and phase of high power but also noisy and broader band <em>Slave Laser</em>, a 372nm Nichia's laser diode.</p> This is done by controlling the current and temperature of the slave laser diode.
 											In this project, I designed a compact module packing the diode and Thermoelectric coolers  diffused with Nitrogen to avoid dew. A PID-based analog circuit to control the TECs is designed to keep the temperature stable while the current is controlled by Thorlabs LDC202C.
 											To adjust for the ambient temperature drifts in the lab, injection lock efficiency is digitally processed from a Fabry-Perot cavity's spectra and fed back to the current controller to change the setpoint accordingly.
+
+											<br><br> The present setup also required a new placement of ovens for Yb and Ba atoms. For this, we designed a new and mechanically simpler oven, placing it closer to the trap while maximising the Joule heating and collimation while minimising conductive heat loss. To test the oven
+											I also designed an adapter/testing mount for our spare chamber. Some parts are currently being machined offshore, while the rest in-house.
 
 											
 											<div class="tags">
